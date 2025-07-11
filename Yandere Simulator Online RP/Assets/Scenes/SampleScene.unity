@@ -1093,7 +1093,8 @@ Animation:
   m_Animation: {fileID: 7813965829163724598, guid: 4fd81e155dcc06b4ab41b5b6479ea803, type: 3}
   m_Animations:
   - {fileID: 7813965829163724598, guid: 4fd81e155dcc06b4ab41b5b6479ea803, type: 3}
-  - {fileID: 7502542746165399674, guid: d2bf7993528fdac4b8242e75dda5b2c5, type: 3}
+  - {fileID: 7400000, guid: e4d5351801f19ca4e9d9710493b0e145, type: 2}
+  - {fileID: 7400000, guid: 10395a759d26705419c0e0aa0bda2326, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1141,8 +1142,8 @@ MonoBehaviour:
   WalkSpeed: 1
   RunSpeed: 5
   IdleAnimation: f02_idle_00
-  WalkAnimation: breakdance
-  SprintAnimation: breakdance
+  WalkAnimation: f02_newWalk_00
+  SprintAnimation: f02_newSprint_00
   mainCamera: {fileID: 330585545}
 --- !u!4 &1074821491 stripped
 Transform:
@@ -3573,7 +3574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Root: {fileID: 1861998579}
   m_UpdateRate: 60
-  m_Damping: 0.5
+  m_Damping: 0.3
   m_DampingDistrib:
     serializedVersion: 2
     m_Curve: []
@@ -3587,14 +3588,14 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_Stiffness: 0.5
+  m_Stiffness: 0.1
   m_StiffnessDistrib:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_Inert: 0
+  m_Inert: 0.5
   m_InertDistrib:
     serializedVersion: 2
     m_Curve: []
