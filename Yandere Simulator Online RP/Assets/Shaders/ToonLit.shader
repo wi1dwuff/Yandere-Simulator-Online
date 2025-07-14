@@ -27,7 +27,7 @@ inline half4 LightingToonRamp (SurfaceOutput s, half3 lightDir, half atten)
 	half3 ramp = tex2D (_Ramp, float2(d,d)).rgb;
 	
 	half4 c;
-	c.rgb = s.Albedo * _LightColor0.rgb * ramp * (atten * 2);
+	c.rgb = s.Albedo * _LightColor0.rgb * ramp * (atten);
 	c.a = 0;
 	return c;
 }
@@ -49,5 +49,5 @@ ENDCG
 
 	} 
 
-	Fallback "Diffuse"
+	Fallback "Mobile/Diffuse"
 }
