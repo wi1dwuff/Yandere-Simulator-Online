@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: tile01_2
-  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -19,23 +19,23 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties:
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-      _BumpMap:
+    - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 42743de705be1944191d964e5c147121, type: 3}
         m_Scale: {x: 20.5, y: 7.3}
         m_Offset: {x: 0, y: -0.08}
-      _MainTex:
+    - _MainTex:
         m_Texture: {fileID: 2800000, guid: 95cebf2dbacc87542846e4581a9bb943, type: 3}
         m_Scale: {x: 20.5, y: 7.3}
         m_Offset: {x: 0, y: -0.08}
-    m_Ints: {}
+    m_Ints: []
     m_Floats:
-      _Shininess: 1
+    - _Shininess: 1
     m_Colors:
-      _Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
-      _SpecColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+    - _Color: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+    - _SpecColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 0
