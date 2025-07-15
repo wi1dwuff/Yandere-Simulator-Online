@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FaceBase
-  m_Shader: {fileID: 4800000, guid: db88fde016853144c81de28ead9a32e9, type: 3}
+  m_Shader: {fileID: 4800000, guid: bf5122ae455752741bab056c12af74ae, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -27,15 +27,30 @@ Material:
         m_Texture: {fileID: 2800000, guid: e16d8a24983f77d4bae4b2a05f093454, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OverlayTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverlayTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Ramp:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BlendAmount: 0
+    - _BlendAmount1: 0
     - _Outline: 0.002
+    - _RimAdditive: 0.5
+    - _RimCrisp: 0.5
+    - _RimLightIntencity: 1
+    - _RimLightIntensity: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
